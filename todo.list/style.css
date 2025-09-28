@@ -1,0 +1,49 @@
+.main{
+    border: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:black;
+}
+.container{
+    border: none;
+    border-radius: 14px;
+    background-color: beige;
+    height: 90vh;
+    width: 45vw;
+    box-shadow: 4px 5px 6px;
+}
+.header{
+    text-align: center;
+    padding: 5px;
+    color: red;
+    font-size: 1.7rem;
+    font-weight: 900;
+    border-bottom: 3px solid red;
+    margin-bottom: 20px;
+    
+}
+.addtask{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.input{
+    padding: 7px;
+    border-radius: 5px;
+}
+
+button:hover{
+    border: 1px solid black;
+    box box-shadow: 1px 1px 1px;
+
+}
+
+button
+ {
+    background: antiquewhite;
+    padding: 4px;
+    border-radius: 5px;
+}
